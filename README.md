@@ -73,8 +73,6 @@ Key parameters included:
 - `max_depth = 8`
 - `min_samples_leaf = 4`
 
-Cross-validation was also used to evaluate the model's performance more reliably.
-
 ### Deep Neural Network
 
 A feed-forward neural network was developed using Keras/TensorFlow.
@@ -108,8 +106,7 @@ The models were evaluated using regression performance metrics including:
 
 - Root Mean Squared Error (RMSE)
 - R²
-- Cross-validation
-
-The Random Forest model achieved an initial RMSE of approximately **0.436**, which improved to approximately **0.393** following cross-validation.
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
 
 The results demonstrated the challenges associated with predicting earthquake behaviour using historical data alone and provided insight into the strengths and limitations of the approaches investigated.
